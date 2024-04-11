@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const PORT = 3000;
-const languages = require("./utils/languages");
+const languages = require("../utils/languages");
 
 app.get("/languages", (_, res) => {
   try {
